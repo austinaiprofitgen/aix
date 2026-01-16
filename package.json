@@ -1,26 +1,20 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "aiprofitgen-website",
+  "version": "1.0.0",
+  "description": "AIPROFITGEN - Premium AI-Powered Fintech SaaS Platform",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "lint": "echo 'Static HTML/CSS/JS site - no linting required'",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build step required'"
   },
-  "dependencies": {
-    "next": "16.0.7",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.7",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+  "keywords": [
+    "fintech",
+    "ai",
+    "trading",
+    "automation",
+    "saas"
+  ],
+  "author": "AIPROFITGEN",
+  "license": "UNLICENSED"
 }
