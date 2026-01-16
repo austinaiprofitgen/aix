@@ -1,8 +1,26 @@
 {
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "lint": "next lint"
-  }
+"name": "next16-live-preview",
+"private": true,
+"scripts": {
+"dev": "next dev -p 3000",
+"build": "next build",
+"start": "next start -p 3000",
+"lint": "next lint",
+"typecheck": "tsc --noEmit"
+},
+"dependencies": {
+"next": "16.0.7",
+"react": "19.2.1",
+"react-dom": "19.2.1"
+},
+"devDependencies": {
+"typescript": "^5.4.0",
+"@types/react": "^19.0.0",
+"@types/react-dom": "^19.0.0",
+"eslint": "^9.0.0",
+"eslint-config-next": "16.0.7",
+"tailwindcss": "^4.0.0",
+"postcss": "^8.4.0",
+"autoprefixer": "^10.4.0"
+}
 }
